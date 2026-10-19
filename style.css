@@ -1,79 +1,166 @@
-/* ================================================================
-   🎨 DESIGN SETTINGS — Change colors, fonts, and sizes here
-   Edit these variables to customize the entire website easily.
-   ================================================================ */
+/* =====================================================
+   PREMIUM CREAM THEME
+   Warm Ivory + Champagne + Forest Teal
+   ===================================================== */
+
 :root {
-    /* =======================================================
-       🔥 PHYHUNT SIGNATURE COLOR PALETTE (https://www.phyhunt.com/)
-       Coral Rose & Tangerine Sunset Gradient
-       ======================================================= */
-    --primary: #F86E49;
-    /* Phyhunt Warm Coral Orange */
-    --primary-light: #FF8F6E;
-    /* Soft Coral Orange */
-    --primary-dark: #D6492F;
-    /* Deep Crimson Orange */
-    --primary-rgb: 248, 110, 73;
 
-    --accent: #F64360;
-    /* Phyhunt Signature Rose Coral */
-    --accent-light: #FFA1B2;
-    /* Light Rose Pink */
-    --accent-rgb: 246, 67, 96;
+    /* -- Primary Colors -- */
+    --primary: #3D8B78;
+    /* Elegant muted green — buttons & links */
 
-    --phyhunt-magenta: #F4137B;
-    /* Phyhunt Vivid Accent Magenta */
+    --primary-light: #75B5A2;
+    /* Soft sage green — hover effects */
 
-    /* -- Background Colors -- */
-    --bg-primary: #FCFBFB;
-    --bg-secondary: #F7F1EE;
-    --bg-card: #FFFFFF;
+    --primary-dark: #286858;
+    /* Deep green — active buttons */
+
+    --primary-rgb: 61, 139, 120;
+
+
+    /* -- Accent Colors -- */
+    --accent: #244A43;
+    /* Deep forest teal — elegant highlights */
+
+    --accent-light: #47776A;
+    /* Muted forest green */
+
+    --accent-rgb: 36, 74, 67;
+
+    --phyhunt-magenta: #C5A477;
+    /* Champagne gold — subtle decorative accents */
+
+
+    /* -- Cream Background Colors -- */
+    --bg-primary: #F8F5EE;
+    /* Premium warm ivory — main background */
+
+    --bg-secondary: #EFE9DC;
+    /* Soft champagne cream — alternate sections */
+
+    --bg-card: #FFFEFA;
+    /* Natural ivory white — cards & content */
+
 
     /* -- Text Colors -- */
-    --text-primary: #1C191E;
-    --text-secondary: #58525E;
-    --text-light: #8C8494;
+    --text-primary: #263630;
+    /* Deep charcoal green — headings */
 
-    /* -- Border & Shadow -- */
-    --border: #E8DCD5;
-    --shadow-sm: 0 2px 8px rgba(246, 67, 96, 0.06);
-    --shadow-md: 0 4px 20px rgba(248, 110, 73, 0.08);
-    --shadow-lg: 0 8px 40px rgba(246, 67, 96, 0.12);
+    --text-secondary: #626A60;
+    /* Warm muted gray — paragraphs */
 
-    /* -- Font Family — Stylish Premium Fonts -- */
+    --text-light: #92948A;
+    /* Soft gray — captions & secondary text */
+
+
+    /* -- Borders -- */
+    --border: #E3DCCF;
+    /* Delicate warm beige border */
+
+
+    /* -- Shadows -- */
+    --shadow-sm: 0 2px 8px rgba(38, 54, 48, 0.04);
+
+    --shadow-md: 0 5px 22px rgba(38, 54, 48, 0.07);
+
+    --shadow-lg: 0 10px 40px rgba(38, 54, 48, 0.10);
+
+
+    /* -- Typography -- */
     --font-body: 'Poppins', sans-serif;
-    --font-heading: 'Playfair Display', 'Poppins', serif;
+
+    --font-heading: 'Poppins', sans-serif;
+
     --font-mono: 'Space Grotesk', monospace;
 
-    /* -- Spacing -- */
+
+    /* -- Layout -- */
     --section-padding: 100px 0;
+
     --container-width: 1100px;
+
     --nav-height: 70px;
+
 
     /* -- Border Radius -- */
     --radius-sm: 8px;
-    --radius-md: 16px;
-    --radius-lg: 24px;
+
+    --radius-md: 14px;
+
+    --radius-lg: 22px;
+
     --radius-full: 50%;
 
-    /* -- Transition -- */
+
+    /* -- Transitions -- */
     --transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
     --transition-slow: 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
 }
 
-/* -- Dark Mode Colors (Sleek Sunset Dark Mode) -- */
+
+/* =====================================================
+   DARK MODE — DEEP FOREST & WARM CREAM
+   ===================================================== */
+
 [data-theme="dark"] {
-    --bg-primary: #130F13;
-    --bg-secondary: #1B151B;
-    --bg-card: #231C24;
-    --text-primary: #FDF5F7;
-    --text-secondary: #B9ACB9;
-    --text-light: #7E717F;
-    --border: #3A2B3A;
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+
+    /* -- Background Colors -- */
+    --bg-primary: #171E1A;
+    /* Deep forest charcoal */
+
+    --bg-secondary: #202923;
+    /* Muted forest background */
+
+    --bg-card: #27322B;
+    /* Soft dark green cards */
+
+
+    /* -- Primary Colors -- */
+    --primary: #80BCA5;
+
+    --primary-light: #A3D2BE;
+
+    --primary-dark: #5B9B83;
+
+    --primary-rgb: 128, 188, 165;
+
+
+    /* -- Accent Colors -- */
+    --accent: #D4C09A;
+    /* Muted champagne gold */
+
+    --accent-light: #E4D4B7;
+
+    --accent-rgb: 212, 192, 154;
+
+    --phyhunt-magenta: #C5A477;
+
+
+    /* -- Text Colors -- */
+    --text-primary: #F5F0E5;
+    /* Warm cream headings */
+
+    --text-secondary: #C6C9BE;
+
+    --text-light: #969E91;
+
+
+    /* -- Borders -- */
+    --border: #39453B;
+
+
+    /* -- Shadows -- */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.18);
+
+    --shadow-md: 0 5px 22px rgba(0, 0, 0, 0.25);
+
+    --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.35);
+
 }
+
+
 
 /* ================================================================
    📐 BASE STYLES & RESET
@@ -395,7 +482,7 @@ ol {
     left: 0;
     width: 100%;
     height: var(--nav-height);
-    background: rgba(248, 250, 249, 0.85);
+    background: rgba(243, 238, 229, 0.88);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border);
@@ -404,7 +491,7 @@ ol {
 }
 
 [data-theme="dark"] .navbar {
-    background: rgba(15, 26, 22, 0.85);
+    background: rgba(18, 28, 27, 0.88);
 }
 
 .navbar.scrolled {
@@ -1774,7 +1861,7 @@ ol {
    🦶 FOOTER
    ================================================================ */
 .footer-cta {
-    background: linear-gradient(135deg, #1C0C12, #290F17, #361219);
+    background: linear-gradient(135deg, #183D3B, #214B46, #102B29);
     color: #fff;
     padding: 80px 0;
     text-align: center;
@@ -1854,7 +1941,7 @@ ol {
 }
 
 .footer {
-    background: #0E070A;
+    background: #102321;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     padding: 28px 0;
@@ -2283,5 +2370,51 @@ ol {
     body {
         color: #000;
         background: #fff;
+    }
+}
+
+/* ================================================================
+   🎨 LUIQUE THEME FINISHING TOUCHES
+   Accessible focus states and consistent form controls
+   ================================================================ */
+
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+}
+
+input,
+textarea,
+select {
+    color: var(--text-primary);
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    transition: border-color var(--transition), box-shadow var(--transition),
+        background-color var(--transition), color var(--transition);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.12);
+}
+
+::selection {
+    color: #FFFFFF;
+    background: var(--primary-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
